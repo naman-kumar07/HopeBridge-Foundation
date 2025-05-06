@@ -3,53 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SDG Impact Hub</title>
+  <title>Donatekart Clone</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>SDG Impact Hub</h1>
-    <nav>
-      <a href="#education">Education</a>
-      <a href="#hunger">Zero Hunger</a>
-      <a href="#water">Clean Water</a>
-      <a href="#join">Join</a>
-    </nav>
+    <div class="container">
+      <h1>Donatekart</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Campaigns</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h2>Empowering Change Together</h2>
-    <p>Take action for a better world. Join our mission to solve global challenges.</p>
-    <a href="#join" class="btn">Get Involved</a>
-  </section>
+  <main>
+    <section class="hero">
+      <h2>Donate Essentials, Not Money</h2>
+      <p>Support causes by contributing items they truly need.</p>
+      <a href="#" class="btn">View Campaigns</a>
+    </section>
 
-  <section id="education">
-    <h2>Goal 4: Quality Education</h2>
-    <p>We organize free digital literacy workshops and donate school kits to children in need.</p>
-  </section>
-
-  <section id="hunger">
-    <h2>Goal 2: Zero Hunger</h2>
-    <p>We collaborate with local communities to distribute food packets and reduce food waste.</p>
-  </section>
-
-  <section id="water">
-    <h2>Goal 6: Clean Water & Sanitation</h2>
-    <p>We install water filters in rural areas and run hygiene awareness campaigns.</p>
-  </section>
-
-  <section id="join">
-    <h2>Join Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Why do you want to join?" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+    <section class="campaigns">
+      <h3>Active Campaigns</h3>
+      <div class="campaign-list">
+        <div class="campaign">
+          <img src="campaign1.jpg" alt="Campaign 1">
+          <h4>Support Flood Victims</h4>
+          <p>Provide blankets and food supplies to affected families.</p>
+        </div>
+        <div class="campaign">
+          <img src="campaign2.jpg" alt="Campaign 2">
+          <h4>Educate Underprivileged Children</h4>
+          <p>Donate books and stationery to children in need.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 SDG Impact Hub | Made by Naman</p>
+    <p>&copy; 2025 Donatekart Clone. All rights reserved.</p>
   </footer>
 </body>
 </html>
