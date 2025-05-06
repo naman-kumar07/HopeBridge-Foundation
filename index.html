@@ -3,27 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZeroWasteConnect - Home</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Hope for All - Charity</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="donate.html">Donate</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <header class="hero">
-    <h1>ZeroWasteConnect</h1>
-    <p>Fighting Food Waste, Feeding the Future</p>
-    <img src="images/food-donation.jpg" alt="Food Donation">
+  <header>
+    <h1>Hope for All</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
-  <section>
-    <h2>What We Do</h2>
-    <p>We connect food donors with NGOs and shelters to reduce waste and feed the hungry.</p>
+
+  <section id="home" class="hero">
+    <h2>Support Poor Children & Families</h2>
+    <p>Your donation can make a difference.</p>
+    <a href="#donate" class="btn">Donate Now</a>
   </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a student-led initiative aiming to collect items like clothes, toys, and essentials for underprivileged children and families.</p>
+  </section>
+
+  <section id="donate">
+    <h2>Donation Form</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Item to Donate (e.g. clothes, books)" required />
+      <textarea placeholder="Additional Notes"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: help@hopeforall.org</p>
+    <p>Phone: +91 9876543210</p>
+  </section>
+
   <footer>
-    <p>© 2025 Naman Kumar | B.Tech CSE</p>
+    <p>© 2025 Hope for All | Made with ❤️ by Naman</p>
   </footer>
 </body>
 </html>
